@@ -1,0 +1,16 @@
+int a =0;
+        int b = 0;
+         
+        for(int test_case = 1; test_case <= T; test_case++)
+        {
+            a = sc.nextInt();
+            b = sc.nextInt();
+            if(a>b) {
+                System.out.println("#" + test_case + " " + ">");
+            } else if(a==b) {
+                System.out.println("#" + test_case + " "  + "=");
+            } else {
+                System.out.println("#" + test_case + " " + "<");
+            }
+            a=0;
+            b=0;

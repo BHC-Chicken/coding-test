@@ -1,0 +1,13 @@
+int b=0;
+        float c=0;
+        for(int test_case = 1; test_case <= T; test_case++)
+        {
+            for(int a=0; a<10; a++)
+            {
+                b = sc.nextInt();
+                c += b;
+            }
+            c = c/10;
+            System.out.println("#" + test_case + " " +(int) Math.round(c));
+            c=0;
+        }

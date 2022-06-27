@@ -1,0 +1,13 @@
+int a=0;
+        int c=0;
+         
+        for(int test_case = 1; test_case <= T; test_case++)
+        {
+            for(int b=0; b<10; b++) {
+                a=sc.nextInt();
+                if(a%2==1){
+                    c =  c + a;
+                }
+            }
+            System.out.println("#" + test_case + " " + c);
+            c= 0;
